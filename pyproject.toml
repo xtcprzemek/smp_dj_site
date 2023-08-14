@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "p_prj"
+version = "0.1.0"
+description = "Django Test project"
+authors = ["Akademia IT"]
+readme = "../README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+python-decouple = "^3.8"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+pytest-django = "^4.5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
